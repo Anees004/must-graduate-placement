@@ -1,0 +1,325 @@
+:root{
+    --red:#ba2124;
+    --gray: #c9d1d4;
+    --pink: #f6e6e7;
+    --dark-pink: #f0d8d6;
+    --white: #ffffff;
+    --black: #000000;
+    --primary : #0c2c53;
+}
+.career-links-image{
+    width: 200px;
+}
+.career-links-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.career-links-details p{
+    margin: 2rem 0;
+    font-family: Poppins-Regular;
+    font-size: 1.25rem;
+    color: var(--black);
+}
+.career-links-details h5{
+    font-family: Poppins-SemiBold;
+    color: var(--black);
+}
+.countdown {
+    display: flex;
+    width: 83.3%;
+    align-content: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+#days,#hours,#minutes,#seconds {
+    font-size: 2rem;
+    text-align: center;
+    background-color: var(--pink);
+    color: var(--black);
+    border-radius: 10px;
+    height: 120px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-top: 1rem;
+}
+.countdown h1{
+    font-family: Poppins-Regular;
+}
+.countdown p{
+    font-size: 1rem;
+    margin: 0;
+    background-color: var(--dark-pink);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.career-links-details-tags .btn-reg{
+    background-color: var(--red);
+    padding: 1rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white);
+}
+.career-links-details-tags .btn-reg img{
+    height: 50px;
+    width: 90px;
+    object-fit: contain;
+    margin-bottom: .5rem;
+}
+.count-card{
+    background-image: linear-gradient(to bottom left, #FFFFFF 30%, #dddddd);
+    box-shadow: 5px -5px 14px #888888;
+    text-align: center;
+    border-radius: 20px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.count-card h3:not(:last-of-type){
+    color: var(--red);
+}
+.heading h3{
+    font-family: Poppins-SemiBold;
+    color: var(--red);
+}
+.heading p{
+    font-family: Poppins-SemiBold;
+    font-size: 1.25rem;
+}
+.heading-details p{
+    font-family: Poppins-Regular;
+}
+.heading ul{
+    list-style: none;
+}
+.heading ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+.heading ul li{
+    display: flex;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+.heading ul li::before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-image: url(../images/home/tick.png);
+    background-repeat: no-repeat;
+    margin-right: 1rem;
+    background-position: center center;
+    vertical-align: middle;
+}
+.job-list h6{
+    font-family: Poppins-Bold;
+}
+.job-list p{
+    font-size: 1rem;
+    font-family: Poppins-Regular;
+}
+.companies-list ul li::before{
+    height: 40px;
+    width: 30px;
+}
+.bg-slider{
+    background-color: var(--pink);
+    padding: 2rem 0;
+}
+.logo-slider .item{
+    background-color: var(--white);
+}
+.logo-slider img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    padding: 1rem;
+}
+.home-video{
+    position: relative;
+    height: 550px;
+}
+.home-video img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.feed-back{
+    position: relative;
+    height: 300px;
+}
+.feed-back img{
+    object-fit: cover;
+}
+.play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%,-50%);
+}
+.play-icon img{
+    object-fit: contain;
+}
+.embed-responsive-item{
+    width: 100%;
+    min-height: 400px;
+}
+.event-year {
+    background-color: var(--red);
+    padding: 2rem;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+.event-year h3{
+    color: var(--white);
+}
+.event-year-image {
+    width: 300px;
+    height: 300px;
+}
+.event-year img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.btn-red{
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 10px;
+    padding: 1rem 1.75rem;
+}
+.faqs .accordion-button:not(.collapsed){
+    background-color: transparent;
+    color: inherit;
+}
+.faqs .accordion-button:focus{
+    box-shadow: none;
+}
+.footer-bar{
+    background-color: var(--red);
+    padding: 1rem;
+}
+.footer-bar a,
+.footer-bar a:hover{
+    color: var(--white);
+    font-family: Poppins-SemiBold;
+}
+/*Gallery*/
+.gallery-banner {
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.gallery-banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.gallery-text {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%,-50%);
+}
+.gallery-text h3{
+    color: var(--white);
+    background: linear-gradient(to right,  rgba(186,33,36,.7) 0%,rgba(186,33,36,.5) 50%, rgba(186,33,36,.1) 100%);
+    font-size: 5rem;
+    padding: 1rem;
+}
+.gallery-images {
+    width: 100%;
+    height: 300px;
+}
+.gallery-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*registration-form*/
+.registration-form h1,
+.registration-form h3{
+    color: var(--red);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+.registration-form label{
+    color: var(--primary);
+    text-transform: uppercase;
+}
+.registration-form .form-control{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid var(--primary);
+}
+.registration-form .form-control:focus{
+    box-shadow: none;
+}
+.registration-btn{
+    background-color: var(--red);
+    color: var(--white) !important;
+    padding: 1rem 1.75rem;
+    border-radius: 0;
+}
+.text-danger{
+    color: var(--red) !important;
+}
+.bg-red{
+    background-color: var(--red);
+    color: var(--white);
+}
+.border-red{
+    border: 1px solid var(--red);
+}
+.pricing-card label{
+    color: var(--white);
+}
+.pricing-card .form-check{
+    display: flex;
+    align-items: center;
+}
+.pricing-card h6{
+    font-family: Poppins-SemiBold;
+}
+.pricing-card .card-title{
+    color: var(--red);
+    font-family: Poppins-Regular;
+    font-size: 1rem;
+}
+@media screen and (max-width: 768px) {
+    .countdown{
+        width: 100%;
+    }
+    #days, #hours, #minutes, #seconds{
+        width: 80px;
+    }
+    .countdown p{
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .home-video,
+    .event-year{
+        height: auto;
+    }
+    .event-year-image {
+        width: 200px;
+        height: 200px;
+    }
+}
